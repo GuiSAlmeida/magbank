@@ -36,23 +36,30 @@
     }
 }
 
-.credit-card-list {
-    font-size: 1.375rem;
-    color: var(--gray);
+.list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.credit-card-list li {
+.list li {
     margin: 10px 0;
 }
+
+.list li i {
+    width: 40px;
+    text-align: center;
+}
+
+.credit-card-list {
+    font-size: 1.375rem;
+    color: var(--gray);
+}
+
 
 .credit-card-list i {
     font-size: 1.75rem;
     color: var(--red);
-    width: 40px;
-    text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -68,4 +75,48 @@
 
 .about {
     background-image: url("../images/about.jpg");
+    background-size: cover; /* quando bota cover não precisa no-repeat */
+    background-position: center center; /* Center the image */
+    font-size: 1.125rem;
+}
+
+.about-list {
+    font-size: 1.5rem;
+}
+
+.faq {
+    background-color: #443a50;
+}
+
+.faq .nav .nav-link {
+    font-size: 1.25rem;
+    color: white;
+    opacity: .5;
+    transition: opacity, margin .3s ease;
+}
+
+.faq .nav .nav-link i {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.faq .nav .nav-link.active {
+    background-color: transparent;
+    opacity: 1;
+}
+
+@media (min-width: 576px) {
+    .faq .nav .nav-link i {
+        font-size: 2.8125rem;
+        /* width: 50%; */
+    }
+}
+
+.faq .accordion .card {
+    background-color: transparent;
+    border-color: #3f2a4a;
+}
+
+.faq .accordion .card .card-header {
+    background-color: #3f2a4a;
 }

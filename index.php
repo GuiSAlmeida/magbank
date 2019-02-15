@@ -12,16 +12,16 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Cartão</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cartao">Cartão</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quem somos</a>
+                        <a class="nav-link" href="#quem-somos">Quem somos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="#faq">FAQ</a>
                     </li>
                 </ul>
                 
@@ -67,13 +67,13 @@
 
 </section>
 
-<section class="credit-card py-5">
+<section class="credit-card py-5" id="cartao">
     <div class="container">
         <div class="row align-items-md-center">
             <div class="col-12 col-md-6 col-lg-7">
                 <h2 class="display-1 text-primary mb-4">Cartão de crédito</h2>
 
-                <ul class="credit-card-list mb-md-5">
+                <ul class="credit-card-list list mb-md-5">
                     <li><i class="fas fa-credit-card"></i>Crédito pessoal</li>
                     <li><i class="fas fa-mobile"></i>APP</li>
                     <li><i class="fas fa-shopping-cart"></i>Pagamento online</li>
@@ -130,22 +130,176 @@
     </div>
 </section>
 
-<section class="about">
+<section class="about" id="quem-somos">
     <div class="container">
-        <div class="row">
+        <div class="row d-flex justify-content-md-end">
             <div class="col-12 col-md-7">
-                <div class="d-flex justify-content-md-end">
-                    <div class="text-light">
-                        <h2 class="display-1">Já nascemos digital</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt arcu vel arcu fermentum, eget accumsan dolor dignissim. Nam eget quam semper, varius ligula sed, auctor augue. Maecenas et porta magna. Nulla mattis tortor vitae metus vestibulum scelerisque. Ut mollis a nisl vel suscipit. Curabitur scelerisque placerat ultrices. Proin purus ante, congue vel arcu ac, porta condimentum mauris. Maecenas massa orci, fringilla eget fermentum nec, dignissim nec diam.</p>
+                <div class="py-5 text-white">
+                    
+                    <h2 class="display-1 mb-5">Já nascemos digital</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt arcu vel arcu fermentum, eget accumsan dolor dignissim. Nam eget quam semper, varius ligula sed, auctor augue. Maecenas et porta magna. Nulla mattis tortor vitae metus vestibulum scelerisque. Ut mollis a nisl vel suscipit. Curabitur scelerisque placerat ultrices. Proin purus ante, congue vel arcu ac, porta condimentum mauris. Maecenas massa orci, fringilla eget fermentum nec, dignissim nec diam.</p>
 
-                        <ul>
-                            <li></li>
-                        </ul>
-                    </div>
+                    <ul class="list about-list my-5">
+                        <li><i class="fas fa-mobile-alt"></i> Sem fila e sem burocracia</li>
+                        <li><i class="fas fa-mobile"></i> Simple e prático</li>
+                        <li><i class="fas fa-globe"></i> Abertura de conta 100% online</li>
+                        <li><i class="fas fa-shield-alt"></i> Transações mais seguras</li>
+                        
+                    </ul>
+
+                    <a href="#" class="btn btn-outline-light btn-lg">Abra sua conta</a>
+                   
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="faq py-5 text-white" id="faq">
+    <div class="container">
+        <h2 class="display-1 text-center mb-5">Duvidas frequentes</h2>
+
+        <div class="row align-items-md-center">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="nav justify-content-between nav-pills flex-md-column mb-3">
+                    <a class="nav-link active d-flex align-itens-center my-md-2" data-toggle="pill" href="#v-pills-card">
+                        <i class="fas fa-credit-card"></i>
+                        <span class="text-left d-none d-md-inline-block ml-2">Cartão de crédito e débito</span>
+                    </a>
+                    <a class="nav-link d-flex align-itens-center my-md-2" data-toggle="pill" href="#v-pills-account">
+                        <i class="fas fa-wallet"></i>
+                        <span class="text-left d-none d-md-inline-block ml-2">Conta e abertura</span>
+                    </a>
+                    <a class="nav-link d-flex align-itens-center my-md-2" data-toggle="pill" href="#v-pills-token">
+                        <i class="fas fa-shield-alt"></i>
+                        <span class="text-left d-none d-md-inline-block ml-2">Token digital</span>
+                    </a>
+                    <a class="nav-link d-flex align-itens-center my-md-2" data-toggle="pill" href="#v-pills-product">
+                        <i class="fas fa-user-tie"></i>
+                        <span class="text-left d-none d-md-inline-block ml-2">Produtos e serviços</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-7">
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="v-pills-card">
+                        <h3 class="text-center d-md-none">Cartão de crédito e débito</h3>
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Collapsible Group Item #1
+                                    </button>
+                                </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                                </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Collapsible Group Item #2
+                                            </button>
+                                        </h2>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Collapsible Group Item #3
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-account">
+                        <h3 class="text-center d-md-none">Conta e abertura</h3>
+
+                        <div class="accordion" id="accordionAccount">
+
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseOneAccount" aria-expanded="true" aria-controls="collapseOne">
+                                        Collapsible Group Item #1
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseOneAccount" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionAccount">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseTwoAccount" aria-expanded="false" aria-controls="collapseTwo">
+                                        Collapsible Group Item #2
+                                        </button>
+                                    </h2>
+
+                                </div>
+
+                                <div id="collapseTwoAccount" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionAccount">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseThreeAccount" aria-expanded="false" aria-controls="collapseThree">
+                                        Collapsible Group Item #3
+                                        </button>
+                                    </h2>
+                            </div>
+                            <div id="collapseThreeAccount" class="collapse" aria-labelledby="headingThree" data-parent="#accordionAccount">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-token">
+                        <h3 class="text-center d-md-none">Token digital</h3>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-product">
+                        <h3 class="text-center d-md-none">Produtos e serviços</h3>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
     </div>
 </section>
 
