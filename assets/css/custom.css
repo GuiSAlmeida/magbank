@@ -1,0 +1,37 @@
+:root {
+    --primary: #8c00b2;
+    --primary-dark: #720a8e;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.display-1 {
+    font-size: 2.5rem;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+}
+
+.btn-primary:focus,
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(140,0,178,.5) !important;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(140,0,178,.5) !important;
+}

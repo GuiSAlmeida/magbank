@@ -1,18 +1,4 @@
-:root {
-    --primary: #8c00b2;
-}
-
-.bg-primary {
-    background-color: var(--primary) !important;
-}
-
-.text-primary {
-    color: var(--primary) !important;
-}
-
-.display-1 {
-    font-size: 2.5rem;
-}
+@import "custom.css";
 
 .navbar {
     border-bottom: 4px solid var(--red);
@@ -108,7 +94,7 @@
 @media (min-width: 576px) {
     .faq .nav .nav-link i {
         font-size: 2.8125rem;
-        /* width: 50%; */
+        width: 50px;
     }
 }
 
@@ -119,4 +105,21 @@
 
 .faq .accordion .card .card-header {
     background-color: #3f2a4a;
+}
+
+.footer {
+    border-bottom: 4px solid var(--red); 
+}
+
+.footer .footer-social i {
+    font-size: 1.5rem;
+    color: var(--secondary);
+}
+
+.footer .footer-social i:hover {
+    color: var(--red);
+}
+
+.footer .footer-social li {
+    list-style: none;
 }

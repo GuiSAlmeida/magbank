@@ -1,4 +1,4 @@
-<?php include("header.php") ?>
+<?php include("head.php") ?>
     
 <header class="header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -32,8 +32,8 @@
                         abra sua conta
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Pessoa física</a>
-                            <a class="dropdown-item" href="#">Pessoa jurídica</a>
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#create-acount">Pessoa física</a>
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#create-acount">Pessoa jurídica</a>
                         </div>
                     </div>
                 </div>
@@ -162,24 +162,25 @@
         <div class="row align-items-md-center">
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="nav justify-content-between nav-pills flex-md-column mb-3">
-                    <a class="nav-link active d-flex align-itens-center my-md-2" data-toggle="pill" href="#v-pills-card">
+                    <a class="nav-link active d-flex align-items-center my-md-2" data-toggle="pill" href="#v-pills-card">
                         <i class="fas fa-credit-card"></i>
                         <span class="text-left d-none d-md-inline-block ml-2">Cartão de crédito e débito</span>
                     </a>
-                    <a class="nav-link d-flex align-itens-center my-md-2" data-toggle="pill" href="#v-pills-account">
+                    <a class="nav-link d-flex align-items-center my-md-2" data-toggle="pill" href="#v-pills-account">
                         <i class="fas fa-wallet"></i>
                         <span class="text-left d-none d-md-inline-block ml-2">Conta e abertura</span>
                     </a>
-                    <a class="nav-link d-flex align-itens-center my-md-2" data-toggle="pill" href="#v-pills-token">
+                    <a class="nav-link d-flex align-items-center my-md-2" data-toggle="pill" href="#v-pills-token">
                         <i class="fas fa-shield-alt"></i>
                         <span class="text-left d-none d-md-inline-block ml-2">Token digital</span>
                     </a>
-                    <a class="nav-link d-flex align-itens-center my-md-2" data-toggle="pill" href="#v-pills-product">
+                    <a class="nav-link d-flex align-items-center my-md-2" data-toggle="pill" href="#v-pills-product">
                         <i class="fas fa-user-tie"></i>
                         <span class="text-left d-none d-md-inline-block ml-2">Produtos e serviços</span>
                     </a>
                 </div>
             </div>
+
             <div class="col-12 col-md-6 col-lg-7">
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="v-pills-card">
@@ -290,9 +291,12 @@
                     </div>
                     <div class="tab-pane fade" id="v-pills-token">
                         <h3 class="text-center d-md-none">Token digital</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vero sequi provident, nam autem illo, et sed beatae quia doloribus dolorum laborum assumenda sapiente dignissimos voluptate non, animi alias veniam.</p>
                     </div>
+
                     <div class="tab-pane fade" id="v-pills-product">
                         <h3 class="text-center d-md-none">Produtos e serviços</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vero sequi provident, nam autem illo, et sed beatae quia doloribus dolorum laborum assumenda sapiente dignissimos voluptate non, animi alias veniam.</p>
                     </div>
                 </div>
 
@@ -303,4 +307,51 @@
     </div>
 </section>
 
+<div class="modal fade" id="create-acount" tabindex="-1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-primary" id="exampleModalLabel">Abra sua conta</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group text-center">
+                <label for="name" class="font-weight-bold">Seu nome</label>
+                <input type="text" class="form-control" id="name" placeholder="Digite seu nome...">
+            </div>
+            <div class="form-group text-center">
+                <label for="email" class="font-weight-bold">Seu e-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail...">
+            </div>
+            <div class="form-group text-center">
+                <label for="city" class="font-weight-bold">Sua cidade</label>
+                <select class="form-control" id="city">
+                    <option></option>
+                    <option>Florianópolis</option>
+                    <option>Porto Alegre</option>
+                    <option>São Paulo</option>
+                    <option>Rio de Janeiro</option>
+                </select>
+                
+            </div>
+
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="terms">
+                <label class="form-check-label" for="terms">Eu li e concordo com os termos de uso</label>
+            </div>
+            
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Criar conta</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <?php include("footer.php") ?>
+<?php include("scripts.php") ?>

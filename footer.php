@@ -1,5 +1,25 @@
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  </body>
-</html>
+<footer class="footer py-5 bg-light">
+    <div class="container d-lg-flex justify-content-lg-between align-items-lg-center">
+        <div class="footer-logo text-center text-lg-left">
+            <img src="assets/images/logo-color.png">
+        </div>
+
+        <div class="footer-links d-lg-flex align-items-lg-center">
+            
+            <div class="d-flex justify-content-around my-5 justify-content-lg-end my-lg-0">
+                <a class="mx-lg-2" href="#"><img src="assets/images/app-store.png"></a>
+                <a class="mx-lg-2" href="#"><img src="assets/images/google-play.png"></a>
+            </div>
+
+            <ul class="footer-social d-flex justify-content-center justify-content-lg-end pl-0 pl-lg-3 mb-0">
+                <li><a href="#" class="px-2"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li><a href="#" class="px-2"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li><a href="#" class="px-2"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</footer>
