@@ -1,5 +1,9 @@
 @import "custom.css";
 
+button {
+    outline: none !important;
+}
+
 .navbar {
     border-bottom: 4px solid var(--red);
 }
@@ -122,4 +126,17 @@
 
 .footer .footer-social li {
     list-style: none;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #8c01b2, #be1523);
+    color: white;
+}
+
+.user-avatar {
+    width: 65px;
+    height: 65px;
+    font-size: 1.625rem;
 }

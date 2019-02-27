@@ -26,7 +26,7 @@
                 </ul>
                 
                 <div class="btn-group">
-                    <button type="button" class="btn btn-outline-light">Acessar minha conta</button>
+                    <a href="login.php" class="btn btn-outline-light">Acessar minha conta</a>
                     <div class="btn-group">
                         <button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown">
                         abra sua conta
