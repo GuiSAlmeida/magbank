@@ -44,9 +44,9 @@
 
 <section class="banner">
     <div class="container">
-        <div class="banner-content d-flex flex-column justify-content-center align-items-sm-start flex-sm-row justify-content-sm-start">
+        <div class="banner-content d-flex flex-column align-items-center justify-content-center align-items-sm-start flex-sm-row justify-content-sm-start">
             <img class="img-fluid" src="assets/images/magic_pay.png">
-            <div class="text-sm-left d-flex flex-column align-items-center align-items-sm-left justify-content-center ml-sm-5 justify-content-sm-start">
+            <div class="d-flex flex-column text-center align-items-center justify-content-center mt-3 text-sm-left align-items-sm-left ml-sm-5 justify-content-sm-start">
                 <h2 class="display-2 mb-5 mb-sm-3 text-white">Pague suas contas pelo nosso APP</h2>
                 <a href="#" class="btn w-75 btn-outline-light btn-lg" data-toggle="modal" data-target="#create-acount">Abra sua conta</a>
 
@@ -62,7 +62,7 @@
             </div>
             <div class="carousel-item">
                 <img src="assets/images/banner-desktop2.jpg" class="banner-desktop w-100">
-                <img src="assets/images/banner-mobile.jpg" class="banner-mobile w-100">
+                <img src="assets/images/banner-mobile2.jpg" class="banner-mobile w-100">
             </div>
         </div>
 

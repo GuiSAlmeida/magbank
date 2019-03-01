@@ -149,5 +149,6 @@
 
 </div>
 
+<?php include("footer.php") ?>
 
 <?php include("scripts.php") ?>

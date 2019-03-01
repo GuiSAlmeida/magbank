@@ -57,9 +57,13 @@ a:hover {
     width: 5%;
 }
 
+.banner .img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+
 @media (min-width: 576px) {
     .banner .img-fluid {
         max-width: 40%;
-        height: auto;
     }
 }
