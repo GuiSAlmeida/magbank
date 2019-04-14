@@ -4,7 +4,7 @@
 
 ## __*Built With*__
 
-* [BOOTSTRAP](https://getbootstrap.com/) - The css framework used.
+* [Bootstrap](https://getbootstrap.com/) - The css framework used.
 
 ## __*Authors*__
 
