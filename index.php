@@ -1,4 +1,4 @@
-<?php include("head.php") ?>
+<?php include("header.php") ?>
     
 <header class="header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">

@@ -1,4 +1,4 @@
-<?php include("head.php") ?>
+<?php include("header.php") ?>
 <section class="login d-flex text-center align-items-center">
     <div class="container">
         <div class="row justify-content-center">
