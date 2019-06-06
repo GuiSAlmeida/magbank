@@ -21,12 +21,7 @@
             
             </div>
         </div>
-
-
-
     </div>
 </section>
-
-
 
 <?php include("scripts.php") ?>
