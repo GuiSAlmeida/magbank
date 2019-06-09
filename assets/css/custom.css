@@ -69,3 +69,7 @@ a:hover {
         max-width: 40%;
     }
 }
+
+.modal-footer {
+    padding: 1rem 0;
+}

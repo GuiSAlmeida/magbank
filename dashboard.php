@@ -36,7 +36,7 @@
         </div>
 
         <div class="user-info">
-            <h4 class="m-0">Guilherme Almeida</h4>
+            <h4 class="m-0"><?= $_POST['name'] ?></h4>
             <small class="text-muted">ag: 12345 c/c: 34567</small>
         </div>
     </div>
@@ -60,7 +60,7 @@
                     <div class="account-item">
                         <h5>Saldo em conta corrente</h5>
                         <div class="account-value text-success">
-                            <small>R$</small>3.500<small>,00</small>
+                            <small>R$</small> 3.500<small>,00</small>
                         </div>
                     </div>
 

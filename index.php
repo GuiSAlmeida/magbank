@@ -439,10 +439,10 @@
             </button>
         </div>
         <div class="modal-body">
-            <form>
+            <form action="dashboard.php" method="POST">
                 <div class="form-group text-center">
                     <label for="name" class="font-weight-bold">Seu nome</label>
-                    <input type="text" class="form-control" id="name" placeholder="Digite seu nome...">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome...">
                 </div>
                 <div class="form-group text-center">
                     <label for="email" class="font-weight-bold">Seu e-mail</label>
@@ -464,13 +464,13 @@
                     <input type="checkbox" class="form-check-input" id="terms">
                     <label class="form-check-label" for="terms">Eu li e concordo com os termos de uso</label>
                 </div>
-                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Criar conta</button>
+                </div>
             </form>
         </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-primary">Criar conta</button>
-        </div>
+        
         </div>
     </div>
     </div>
