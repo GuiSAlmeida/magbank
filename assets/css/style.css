@@ -158,3 +158,23 @@ button {
     height: 65px;
     font-size: 1.625rem;
 }
+
+.account-item {
+    margin-bottom: 30px;
+}
+
+.account-item h5 {
+    font-size: 14px;
+}
+
+.account-value {
+    font-size: 20px;
+}
+
+.account-info {
+    font-style: 12px;
+}
+
+.account-info p {
+    margin: 0;
+}
