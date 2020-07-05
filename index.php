@@ -27,15 +27,7 @@
                     
                     <div class="btn-group">
                         <a href="login.php" class="btn btn-outline-light">Acessar minha conta</a>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown">
-                            abra sua conta
-                            </button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#create-acount">Pessoa física</a>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#create-acount">Pessoa jurídica</a>
-                            </div>
-                        </div>
+                        <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#create-acount">Abra sua conta</a>
                     </div>
                 </div>
             </div>    
