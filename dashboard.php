@@ -36,8 +36,8 @@
         </div>
 
         <div class="user-info">
-            <h4 class="m-0"><?= $_POST['name'] ?></h4>
-            <small class="text-muted">ag: 12345 c/c: 34567</small>
+            <h4 class="m-0">Guilherme</h4>
+            <small class="text-muted">ag: 12345 c/c: 12345</small>
         </div>
     </div>
 </section>

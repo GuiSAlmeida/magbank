@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                <form action="dashboard.php" class="login-form">
+                <form action="dashboard.php" method="POST" class="login-form">
                     <img src="assets/images/logo-white.png" class="mb-5">
 
                     <div class="form-group">
